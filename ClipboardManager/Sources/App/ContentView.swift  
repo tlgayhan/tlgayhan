@@ -1,0 +1,17 @@
+import SwiftUI
+
+struct ContentView: View {
+    var body: some View {
+        VStack {
+            Text("Welcome to Clipboard Manager!")
+                .font(.title)
+                .foregroundColor(.primary)
+                .padding()
+        }
+        .frame(maxWidth: .infinity, maxHeight: .infinity)
+    }
+}
+
+#Preview {
+    ContentView()
+}
